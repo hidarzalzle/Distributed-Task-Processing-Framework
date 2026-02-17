@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DistributedTaskFramework.Application/DistributedTaskFramework.Application.csproj" />
+    <ProjectReference Include="../DistributedTaskFramework.Infrastructure.RabbitMq/DistributedTaskFramework.Infrastructure.RabbitMq.csproj" />
+    <ProjectReference Include="../DistributedTaskFramework.Infrastructure.Redis/DistributedTaskFramework.Infrastructure.Redis.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="OpenTelemetry" Version="1.9.0" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.9.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.24" />
+  </ItemGroup>
+</Project>

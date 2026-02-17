@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedTaskFramework.Core", "src/DistributedTaskFramework.Core/DistributedTaskFramework.Core.csproj", "{3E666560-08CF-4A8C-80B2-6A0764FE4947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedTaskFramework.Application", "src/DistributedTaskFramework.Application/DistributedTaskFramework.Application.csproj", "{F17327AA-0F0D-4797-B55F-527C75213A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedTaskFramework.Infrastructure.Redis", "src/DistributedTaskFramework.Infrastructure.Redis/DistributedTaskFramework.Infrastructure.Redis.csproj", "{A647A15F-E134-4FBF-BD52-1D4A6F8AE88D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedTaskFramework.Infrastructure.RabbitMq", "src/DistributedTaskFramework.Infrastructure.RabbitMq/DistributedTaskFramework.Infrastructure.RabbitMq.csproj", "{5BB45E76-D29E-4FBF-B238-870B9298777D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedTaskFramework.Worker", "src/DistributedTaskFramework.Worker/DistributedTaskFramework.Worker.csproj", "{9CC54639-41A9-4D58-B6A0-D0F8A4379330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedTaskFramework.Tests", "tests/DistributedTaskFramework.Tests/DistributedTaskFramework.Tests.csproj", "{E3BAF8C5-BBC5-4A8B-BB9A-00C3AC4766E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E666560-08CF-4A8C-80B2-6A0764FE4947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E666560-08CF-4A8C-80B2-6A0764FE4947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E666560-08CF-4A8C-80B2-6A0764FE4947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E666560-08CF-4A8C-80B2-6A0764FE4947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17327AA-0F0D-4797-B55F-527C75213A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17327AA-0F0D-4797-B55F-527C75213A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17327AA-0F0D-4797-B55F-527C75213A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17327AA-0F0D-4797-B55F-527C75213A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A647A15F-E134-4FBF-BD52-1D4A6F8AE88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A647A15F-E134-4FBF-BD52-1D4A6F8AE88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A647A15F-E134-4FBF-BD52-1D4A6F8AE88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A647A15F-E134-4FBF-BD52-1D4A6F8AE88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB45E76-D29E-4FBF-B238-870B9298777D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB45E76-D29E-4FBF-B238-870B9298777D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB45E76-D29E-4FBF-B238-870B9298777D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB45E76-D29E-4FBF-B238-870B9298777D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC54639-41A9-4D58-B6A0-D0F8A4379330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC54639-41A9-4D58-B6A0-D0F8A4379330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC54639-41A9-4D58-B6A0-D0F8A4379330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC54639-41A9-4D58-B6A0-D0F8A4379330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BAF8C5-BBC5-4A8B-BB9A-00C3AC4766E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BAF8C5-BBC5-4A8B-BB9A-00C3AC4766E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BAF8C5-BBC5-4A8B-BB9A-00C3AC4766E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BAF8C5-BBC5-4A8B-BB9A-00C3AC4766E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
